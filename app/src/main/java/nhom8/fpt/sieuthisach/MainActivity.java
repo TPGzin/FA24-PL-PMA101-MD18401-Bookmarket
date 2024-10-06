@@ -35,8 +35,10 @@ import com.google.android.material.navigation.NavigationView;
 
 import nhom8.fpt.sieuthisach.DAO.TaiKhoanDAO;
 import nhom8.fpt.sieuthisach.Fragment.CuaHangFragment;
+import nhom8.fpt.sieuthisach.Fragment.FragmentGioHang;
 import nhom8.fpt.sieuthisach.Fragment.FragmentQLHoaDon;
 import nhom8.fpt.sieuthisach.Fragment.QuanLySanPham;
+import nhom8.fpt.sieuthisach.Fragment.QuanLyTaiKhoan;
 import nhom8.fpt.sieuthisach.Fragment.QuanLyTheLoai;
 
 public class MainActivity extends AppCompatActivity {
