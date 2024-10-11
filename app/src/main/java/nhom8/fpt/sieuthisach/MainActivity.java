@@ -42,6 +42,8 @@ import nhom8.fpt.sieuthisach.Fragment.LichSuMuaHangFragment;
 import nhom8.fpt.sieuthisach.Fragment.QuanLySanPham;
 import nhom8.fpt.sieuthisach.Fragment.QuanLyTaiKhoan;
 import nhom8.fpt.sieuthisach.Fragment.QuanLyTheLoai;
+import nhom8.fpt.sieuthisach.Fragment.TaiKhoanFragment;
+import nhom8.fpt.sieuthisach.Fragment.ThongKeDoanhThu;
 
 public class MainActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
@@ -156,10 +158,10 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 //Thông tin đội ngũ phát triển ứng dựng
-                if (item.getItemId() == R.id.mThongTinApp) {
-                    callFragment(new ThongTinApp());
-                    toolbar.setTitle("Thông tin đội ngũ phát triển");
-                }
+//                if (item.getItemId() == R.id.mThongTinApp) {
+//                    callFragment(new ThongTinApp());
+//                    toolbar.setTitle("Thông tin đội ngũ phát triển");
+//                }
                 /*<---------------------->*/
                 //Đăng Xuất
                 if (item.getItemId() == R.id.mDangXuat) {
