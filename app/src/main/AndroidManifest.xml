@@ -22,13 +22,10 @@
             android:name=".DangKi"
             android:exported="false" />
         <activity
-            android:name=".Model.DangKi"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".DangNhap"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
